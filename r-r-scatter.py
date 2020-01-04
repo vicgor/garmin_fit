@@ -19,8 +19,10 @@ from datetime import datetime
 from datetime import timedelta
 import statistics as st
 
+
 filename = '4003285187.fit'
-zipfilename = '4346704564'
+zipfilename = '4396421076'
+
 zf = zipfile.ZipFile(zipfilename + '.zip')
 filename = zf.extract(zipfilename + '.fit')
 #filename = '4339768833.fit'
